@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>MessageBox API Web Client</title>
+		
+		
+	</head>
+	<body>
+		<h1>MessageBOX API Web Client</h1>
+			
+			<h2>Post a New Thread</h2>
+			<form method="POST" action="index.php/threads/" name="newThread" id="newThread">
+				Name:<input type="text" name="name" id="name" /><br/>
+				Message: <input type="text" name="message" id="message"/><br/>
+				<input type="submit" value="Post This Thread" />
+			</form>
+			
+			<h2>Reply to a Thread</h2>
+			<form method="POST" action="index.php/threads/:222" name="replyThread" id="replyThread">
+				Name:<input type="text" name="name" id="name" /><br/>
+				Message: <input type="text" name="message" id="message"/><br/>
+				<input type="submit" value="Post This Thread" />
+			</form>
+			<h2>Show all Threads</h2>
+			<a href="index.php/threads/">Show them all!</a>
+			<h2>Show certain thread</h2>
+			<a href="index.php/threads/:1">Show Thread 1</a>
+			<a href="index.php/threads/:2">Show Thread 2</a>
+			
+	</body>
+</html>
