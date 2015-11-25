@@ -1,0 +1,4 @@
+1|1|Nickname|This is my first post to this group, I know it's rather long, but I wish to say hello
+1|2|An Obvious Internet Troll|I came here only for trolling!
+2|1|The Spam Monster|I want to spam!
+2|2|Surgeon General|Surgeon General warns you: Spamming damages health!
